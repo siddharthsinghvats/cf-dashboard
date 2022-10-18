@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+@keyframes round {
+  from{
+    transform: rotate(0);
+  }to{
+    transform:rotate(360deg);
+  }
+}
+.loading{
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+  border :10 px solid red;
+  animation:round 1s infinite;
+}
